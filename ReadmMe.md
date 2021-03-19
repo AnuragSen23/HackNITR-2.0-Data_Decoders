@@ -1,4 +1,4 @@
-  # HackNITR-2.0-Covikit
+# HackNITR-2.0-Covikit.
 
 This web application provides a platform for Online COVID-19 Testing. It is based on Artificial Neural Network (ANN) and Exploratory Data Analysis.
 
