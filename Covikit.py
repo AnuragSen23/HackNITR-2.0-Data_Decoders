@@ -10,6 +10,23 @@ try:
     import pandas as pd
     import streamlit as st
     from streamlit_player import st_player
+    
+        # This code is different for each deployed app.
+    CURRENT_THEME = "blue"
+    IS_DARK_THEME = True
+    EXPANDER_TEXT = """
+        This is a custom theme. You can enable it by copying the following code
+        to `.streamlit/config.toml`:
+        ```python
+        [theme]
+        primaryColor = "#5548FD"
+        backgroundColor = "#FAFAFD"
+        secondaryBackgroundColor = "DBF7F3""
+        textColor = "#0A0909"
+        font = "sans-serif"
+        ```
+        """
+
 
     st.image('https://res.cloudinary.com/dqlh9q2iv/image/upload/v1616161454/960x0_l0dnyz.jpg',width = 800)
 
