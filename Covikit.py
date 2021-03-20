@@ -21,7 +21,7 @@ try:
         [theme]
         primaryColor = "#5548FD"
         backgroundColor = "#FAFAFD"
-        secondaryBackgroundColor = "DBF7F3""
+        secondaryBackgroundColor = "DBF7F3"
         textColor = "#0A0909"
         font = "sans-serif"
         ```
