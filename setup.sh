@@ -2,9 +2,9 @@ mkdir -p ~/.streamlit/
 
 echo "\
 [server]\n\
-headless = true\n\
-enableCORS=false\n\
 port = $PORT\n\
+enableCORS = false\n\
+headless = true\n\
 [theme]\n\
 primaryColor="#5548fd"\n\
 backgroundColor="#fafafd"\n\
