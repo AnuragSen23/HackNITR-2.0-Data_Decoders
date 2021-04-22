@@ -15,10 +15,10 @@ try:
 
     #raw_data = pd.read_csv('https://res.cloudinary.com/dqlh9q2iv/raw/upload/v1616062437/coviddataset_o6x2kb_puiacl.csv')
     #raw_data.drop(["Unnamed: 0","test_date","age_60_and_above"],axis=1,inplace=True)
-    raw_data = pd.read_csv('https://res.cloudinary.com/dqlh9q2iv/raw/upload/v1619112695/new_covid_Data_cho1a4.csv')
-    raw_data['corona_result'] = raw_data['corona_result'].map({'negative':0,'positive':1,'other':1})
-    raw_data['gender'] = raw_data['gender'].map({'female':0,'male':1,'None':2})
-    raw_data['test_indication'] = raw_data['test_indication'].map({'Contact with confirmed':0,'Abroad':1,'Other':2})
+    raw_data = pd.read_csv('https://res.cloudinary.com/dqlh9q2iv/raw/upload/v1619113696/finalcovid_q3vxrd.csv')
+    #raw_data['corona_result'] = raw_data['corona_result'].map({'negative':0,'positive':1,'other':1})
+    #raw_data['gender'] = raw_data['gender'].map({'female':0,'male':1,'None':2})
+    #raw_data['test_indication'] = raw_data['test_indication'].map({'Contact with confirmed':0,'Abroad':1,'Other':2})
 
     st.sidebar.image('https://res.cloudinary.com/dqlh9q2iv/image/upload/v1616161651/prev_xmsd2f.jpg')
     st.sidebar.write("""
